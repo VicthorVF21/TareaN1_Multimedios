@@ -1,0 +1,93 @@
+html{
+    background: rgb(173, 173, 173);
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: rgb(173, 173, 173) !important;
+}
+
+#navbarSupportedContent{
+    padding-right: 10%;
+}
+
+#Btn_Engranaje{
+
+    border: none;
+}
+
+img{
+    height: 170px;
+}
+
+.DivButtons{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+#postinsta{
+    display: none;
+    
+}
+
+#galeria{
+    display: none;
+}
+
+#postinsta:target {
+    display: block;
+    padding-top: 20px
+
+  }
+  
+#galeria:target {
+    display: block;
+  }
+
+  .carta-icons{
+    gap: 12px;
+  }
+  
+  p{
+    font-size: 10px;
+  }
+
+  #postinsta i{
+    font-size: 30px;
+  }  
+  
+  .carta {
+      max-width: 40%;
+      background: white;
+      border: solid 2px black;
+      border-bottom: none;
+      border-top: none;
+    }
+  
+    .carta img {
+      width: 100%;
+    }
+  
+  .carta-footer{
+    padding-top: 7px;
+      padding-right: 6px;
+      justify-content: space-between;  
+  }
+  
+  .carta-header{
+    padding-left: 8px;
+    padding-right: 8px;
+      padding-top: 20px;
+      padding-bottom: 5px;
+      display: flex;
+      justify-content: space-between;
+     
+  }  
+
+  .modal-header{
+    flex-direction: column-reverse;
+    align-items: stretch !important;
+  }
